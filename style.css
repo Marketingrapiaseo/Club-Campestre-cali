@@ -1,9 +1,9 @@
 /* ================================================================
-   RAPIASEO — Sistema de diseño (completo)
+   RAPIASEO — Sistema de diseño (con rutas relativas)
    ================================================================ */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
 
-/* ========== FUENTE PERSONALIZADA (CORREGIDA) ========== */
+/* ========== FUENTE PERSONALIZADA (RUTA RELATIVA) ========== */
 @font-face {
   font-family: 'Microgramma';
   src: url('./tipografia/Microgramma-Extended-Bold.otf') format('opentype');
