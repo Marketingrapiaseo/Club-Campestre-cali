@@ -93,7 +93,6 @@ document.addEventListener('DOMContentLoaded', () => {
       function tick(now) {
         const progress = Math.min((now - startTime) / duration, 1);
         const eased = 1 - Math.pow(1 - progress, 3);
-        // Formatear con separadores de miles
         const formatted = Math.round(eased * target).toLocaleString('es-CO');
         el.textContent = '$' + formatted + suffix;
         if (progress < 1) requestAnimationFrame(tick);
